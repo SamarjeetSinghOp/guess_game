@@ -5,7 +5,6 @@ let score = 20;
 document.querySelector(`.check`).addEventListener('click', function () {
   let guess = document.querySelector(`.guess`).value;
   guess = Number(guess);
-  console.log(typeof guess);
 
   if (!guess) {
     if (score > 0) {
